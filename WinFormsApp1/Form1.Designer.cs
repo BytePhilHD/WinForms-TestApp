@@ -42,7 +42,7 @@ namespace WinFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(275, 157);
+            this.button1.Location = new System.Drawing.Point(361, 185);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(226, 43);
             this.button1.TabIndex = 0;
@@ -94,19 +94,20 @@ namespace WinFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "TestProgramm";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Name = "Form1";
             this.Text = "TestProgramm";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
-            this.BackColor = Color.DarkGray;
+
         }
 
         #endregion
